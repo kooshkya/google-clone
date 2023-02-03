@@ -20,8 +20,8 @@ body {
 
     padding: 10px 10px;
 
-    /* background-color: #0a0a0b; */
     color: white;
+    font-size: 14px;
 }
 
 .header .prof-container img {
@@ -159,12 +159,18 @@ body {
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: flex-end;
 
     color: rgb(179, 179, 179);
     font-family: Arial;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
+    font-size: 14px;
 
     padding: 15px 15px;
+}
+.footer .splitter {
+    flex: 1;
+}
+.footer a {
+    margin: 0 5px;
 }
